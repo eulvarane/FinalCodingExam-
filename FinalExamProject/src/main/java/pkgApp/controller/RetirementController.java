@@ -1,6 +1,7 @@
 package pkgApp.controller;
 
 import java.net.URL;
+
 import java.util.ResourceBundle;
 
 import javafx.event.ActionEvent;
@@ -35,13 +36,17 @@ public class RetirementController implements Initializable {
 		System.out.println("Clear pressed");
 		
 		//	TODO: Clear all the text inputs
+		txtYearsToWork.getText().clear();
+	
 	}
 	
 	@FXML
 	public void btnCalculate(ActionEvent event) {
 		
 		//	TODO: Call AmountToSave and TotalAmountSaved and populate 
-		
+		AmountToSave();
+		TotalAmountSave();
+	
 	}
 	
 }
