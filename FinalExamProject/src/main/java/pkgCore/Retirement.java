@@ -48,7 +48,7 @@ public class Retirement {
 	
 		}
 		else
-			System.out.println("Must be below 20%");//
+			System.out.println("Must be below 20%");
 	}
 		
 
