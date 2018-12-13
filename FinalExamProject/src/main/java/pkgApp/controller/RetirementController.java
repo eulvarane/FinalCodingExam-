@@ -45,7 +45,7 @@ public class RetirementController implements Initializable {
 		
 		//	TODO: Call AmountToSave and TotalAmountSaved and populate 
 		AmountToSave();
-		TotalAmountSave();
+		TotalAmountSave();  //
 	
 	}
 	
